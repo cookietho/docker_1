@@ -1,0 +1,7 @@
+apt-get install build-essential
+
+apt-get update -y
+apt-get install git -y
+apt-get install gcc -y
+
+# launch the debian container first!! --> docker run --rm -it debian

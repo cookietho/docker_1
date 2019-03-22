@@ -1,0 +1,5 @@
+docker network create -d overlay --internal overmind
+
+# https://docs.docker.com/engine/reference/commandline/network_create/
+# Creates a new network. The DRIVER accepts bridge or overlay which are the built-in network drivers. If you have installed a third party or your own custom network driver you can specify that DRIVER here also. If you don’t specify the --driver option, the command automatically creates a bridge network for you.
+# By default, when you connect a container to an overlay network, Docker also connects a bridge network to it to provide external connectivity.

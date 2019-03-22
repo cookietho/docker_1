@@ -1,0 +1,11 @@
+docker-machine rm -y Aiur
+
+# https://docs.docker.com/machine/reference/rm/
+# -y : Assumes automatic yes to proceed with remove, without prompting further user confirmation
+# -f : Remove local configuration even if machine cannot be removed, also implies an automatic yes ('-y')
+
+# EXAMPLE without -y option
+# $ docker-machine rm baz
+# About to remove baz
+# Are you sure? (y/n): y
+# Successfully removed baz

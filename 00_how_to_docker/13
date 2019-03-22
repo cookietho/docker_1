@@ -1,0 +1,4 @@
+docker exec spawning-pool env
+
+# docker exec : command runs a new command in a running container.
+# -e : this option sets environment variables.

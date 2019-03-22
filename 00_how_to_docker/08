@@ -1,0 +1,5 @@
+docker run --rm -it alpine
+
+# https://docs.docker.com/engine/reference/commandline/run/
+# --rm : automatically remove the container when it exits.
+# For example, you might want use docker exec with the -i (interactive) flag to keep stdin open and -t to allocate a terminal.

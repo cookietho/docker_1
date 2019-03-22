@@ -1,0 +1,5 @@
+docker service create -d --name orbital-command -e RABBITMQ_USERNAME=user -e RABBITMQ_PASSWORD=bitnami --network overmind rabbitmq
+
+# https://docs.docker.com/engine/reference/commandline/service_create/
+# https://docs.docker.com/samples/library/rabbitmq/
+# https://hub.docker.com/r/bitnami/rabbitmq/

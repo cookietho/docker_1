@@ -1,0 +1,6 @@
+docker run -d --name spawning-pool --restart=on-failure -e MYSQL_ROOT_PASSWORD=Kerrigan -v hatchery -e MYSQL_DATABASE=zerglings mysql
+
+# restart on-failure : restart only if the container exits with a non-zero exit status.
+# -e setting the environment
+# -v : mount volume from the given container.
+# https://docs.docker.com/samples/library/mysql/

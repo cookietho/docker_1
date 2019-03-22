@@ -1,0 +1,8 @@
+docker swarm init --advertise-addr $(docker-machine ip Char)
+
+# https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
+# https://docs.docker.com/machine/reference/ip/
+# $ docker-machine ip : Get the IP address of one or more machines.
+# The --advertise-addr flag configures the manager node to publish its address
+# Purpose of creating a Swarm
+# Docker Swarm has proven to be an useful tool for orchestrating containers. The cluster liberates us from distributing the workload across the containers manually. It is capable of distributing it by itself even taking our preferences in concern. Moreover, it is able to give us information regarding the whole cluster and thus provide us with an overview of the environment we are building. 

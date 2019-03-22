@@ -1,0 +1,4 @@
+docker logs -f spawning-pool
+
+# docker logs : command batch-retrieves logs present at the time of excution.
+# -f : floow log output.

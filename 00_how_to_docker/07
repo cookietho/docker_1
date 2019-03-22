@@ -1,0 +1,5 @@
+docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' overlord
+
+# docker inspect : Return low-level information on Docker objects.
+# Get an instance’s IP address.
+# https://docs.docker.com/engine/reference/commandline/inspect/

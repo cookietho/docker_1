@@ -1,0 +1,5 @@
+eval $(docker-machine env Char)
+
+# Set environment variables to dictate that docker should run a command against a particular machine.
+# eval "$(docker-machine env -u)"
+# The environment variables have been unset. 
